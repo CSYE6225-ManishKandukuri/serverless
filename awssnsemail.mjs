@@ -40,7 +40,9 @@ async function sendAssignmentSubmissionStatus(toEmail, assignmentName, downloadS
     if (downloadStatus === 1)
     {
       emailSubject = 'Assignment Submission Status Failure';
-      emailBody = `Assignment : ${assignmentName} Downloaded Successfully \nFailed to upload to GCP Please Contact Admin`;
+
+      emailBody = `Assignment : ${assignmentName} Downloaded Successfully \nFailed to upload to GCP contact Admin`;
+
     }
     else
     {
